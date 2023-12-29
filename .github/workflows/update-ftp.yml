@@ -52,4 +52,3 @@ jobs:
 
       - name: Update FTP
         run: bin/update-ftp.sh ${{ github.event.inputs.set-on-date }} ${{ github.event.inputs.ftp }}
-
