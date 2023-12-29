@@ -49,4 +49,3 @@ jobs:
 
       - name: Update Strava activities
         run: bin/update-strava-activities.sh
-
