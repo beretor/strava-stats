@@ -13,6 +13,8 @@ use App\Domain\Strava\Activity\BuildEddingtonChart\EddingtonChartBuilder;
 use App\Domain\Strava\Activity\BuildWeekdayStatsChart\WeekdayStats;
 use App\Domain\Strava\Activity\BuildWeekdayStatsChart\WeekdayStatsChartsBuilder;
 use App\Domain\Strava\Activity\BuildWeeklyDistanceChart\WeeklyDistanceChartBuilder;
+use App\Domain\Strava\Activity\BuildYearlyDistanceChart\YearlyDistanceChartBuilder;
+use App\Domain\Strava\Activity\BuildYearlyDistanceChart\YearlyStatistics;
 use App\Domain\Strava\Activity\HeartRateDistributionChartBuilder;
 use App\Domain\Strava\Activity\Image\Image;
 use App\Domain\Strava\Activity\Image\ImageRepository;
@@ -48,7 +50,9 @@ use App\Infrastructure\Exception\EntityNotFound;
 use App\Infrastructure\KeyValue\Key;
 use App\Infrastructure\KeyValue\ReadModel\KeyValueStore;
 use App\Infrastructure\Serialization\Json;
+use App\Infrastructure\ValueObject\DataTableRow;
 use App\Infrastructure\ValueObject\Time\SerializableDateTime;
+use App\Infrastructure\ValueObject\Time\YearCollection;
 use Lcobucci\Clock\Clock;
 use League\Flysystem\FilesystemOperator;
 use Twig\Environment;
@@ -96,6 +100,10 @@ final readonly class BuildHtmlVersionCommandHandler implements CommandHandler
         $allMonths = MonthCollection::create(
             startDate: $allActivities->getFirstActivityStartDate(),
             now: $now
+        );
+        $allYears = YearCollection::create(
+            startDate: $allActivities->getFirstActivityStartDate(),
+            endDate: $now
         );
         $monthlyStatistics = MonthlyStatistics::fromActivitiesAndChallenges(
             activities: $allActivities,
@@ -163,6 +171,7 @@ final readonly class BuildHtmlVersionCommandHandler implements CommandHandler
                         ->withAnimation(true)
                         ->withoutBackgroundColor()
                         ->withDataZoom(true)
+                        ->withAverageTimes(true)
                         ->build(),
                 ),
                 'powerOutputs' => $this->activityPowerRepository->findBest(),
@@ -215,16 +224,22 @@ final readonly class BuildHtmlVersionCommandHandler implements CommandHandler
                     monthlyStatistics: $monthlyStatistics,
                     activities: $allActivities
                 ),
+                'yearlyDistanceChart' => Json::encode(
+                    YearlyDistanceChartBuilder::fromActivities($allActivities, $now)
+                        ->withAnimation(true)
+                        ->withoutBackgroundColor()
+                        ->build()
+                ),
+                'yearlyStatistics' => YearlyStatistics::fromActivities(
+                    activities: $allActivities,
+                    years: $allYears
+                ),
             ]),
         );
 
         $this->filesystem->write(
             'build/html/activities.html',
-            $this->twig->load('html/activities.html.twig')->render([
-                'timeIntervals' => ActivityPowerRepository::TIME_INTERVAL_IN_SECONDS,
-                'activities' => $allActivities,
-                'activityHighlights' => $activityHighlights,
-            ]),
+            $this->twig->load('html/activities.html.twig')->render(),
         );
 
         $this->filesystem->write(
@@ -260,10 +275,11 @@ final readonly class BuildHtmlVersionCommandHandler implements CommandHandler
             ]),
         );
 
+        $dataDatableRows = [];
         /** @var \App\Domain\Strava\Segment\Segment $segment */
         foreach ($allSegments as $segment) {
-            $segmentEfforts = $this->segmentEffortDetailsRepository->findBySegmentId($segment->getId());
-            $segment->enrichWithNumberOfTimesRidden(count($segmentEfforts));
+            $segmentEfforts = $this->segmentEffortDetailsRepository->findBySegmentIdTopTen($segment->getId());
+            $segment->enrichWithNumberOfTimesRidden($this->segmentEffortDetailsRepository->countBySegmentId($segment->getId()));
 
             if ($bestSegmentEffort = $segmentEfforts->getBestEffort()) {
                 $segment->enrichWithBestEffort($bestSegmentEffort);
@@ -281,16 +297,32 @@ final readonly class BuildHtmlVersionCommandHandler implements CommandHandler
                 'build/html/segment/'.$segment->getId().'.html',
                 $this->twig->load('html/segment.html.twig')->render([
                     'segment' => $segment,
-                    'segmentEfforts' => $segmentEfforts,
+                    'segmentEfforts' => $segmentEfforts->slice(0, 10),
                 ]),
+            );
+
+            $dataDatableRows[] = DataTableRow::create(
+                markup: $this->twig->load('html/data-table/segment-data-table-row.html.twig')->render([
+                    'segment' => $segment,
+                ]),
+                searchables: $segment->getSearchables(),
+                sortValues: [
+                    'name' => (string) $segment->getName(),
+                    'distance' => $segment->getDistanceInKilometer(),
+                    'max-gradient' => $segment->getMaxGradient(),
+                    'ride-count' => $segment->getNumberOfTimesRidden(),
+                ]
             );
         }
 
         $this->filesystem->write(
+            'build/html/fetch-json/segment-data-table.json',
+            Json::encode($dataDatableRows),
+        );
+
+        $this->filesystem->write(
             'build/html/segments.html',
-            $this->twig->load('html/segments.html.twig')->render([
-                'segments' => $allSegments,
-            ]),
+            $this->twig->load('html/segments.html.twig')->render(),
         );
 
         $this->filesystem->write(
@@ -334,6 +366,34 @@ final readonly class BuildHtmlVersionCommandHandler implements CommandHandler
             ]),
         );
 
+        $routesPerCountry = [];
+        $routesInMostRiddenState = [];
+        $mostRiddenState = $this->activityDetailsRepository->findMostRiddenState();
+        foreach ($allActivities as $activity) {
+            if (ActivityType::RIDE !== $activity->getType()) {
+                continue;
+            }
+            if (!$polyline = $activity->getPolylineSummary()) {
+                continue;
+            }
+            if (!$countryCode = $activity->getLocation()?->getCountryCode()) {
+                continue;
+            }
+            $routesPerCountry[$countryCode][] = $polyline;
+            if ($activity->getLocation()?->getState() === $mostRiddenState) {
+                $routesInMostRiddenState[] = $polyline;
+            }
+        }
+
+        $this->filesystem->write(
+            'build/html/heatmap.html',
+            $this->twig->load('html/heatmap.html.twig')->render([
+                'routesPerCountry' => Json::encode($routesPerCountry),
+                'routesInMostRiddenState' => Json::encode($routesInMostRiddenState),
+            ]),
+        );
+
+        $dataDatableRows = [];
         foreach ($allActivities as $activity) {
             $streams = $this->activityStreamDetailsRepository->findByActivityAndStreamTypes(
                 activityId: $activity->getId(),
@@ -372,6 +432,30 @@ final readonly class BuildHtmlVersionCommandHandler implements CommandHandler
                     'segmentEfforts' => $this->segmentEffortDetailsRepository->findByActivityId($activity->getId()),
                 ]),
             );
+
+            $dataDatableRows[] = DataTableRow::create(
+                markup: $this->twig->load('html/data-table/activity-data-table-row.html.twig')->render([
+                    'timeIntervals' => ActivityPowerRepository::TIME_INTERVAL_IN_SECONDS,
+                    'activity' => $activity,
+                    'activityHighlights' => $activityHighlights,
+                ]),
+                searchables: $activity->getSearchables(),
+                sortValues: [
+                    'start-date' => $activity->getStartDate()->getTimestamp(),
+                    'distance' => $activity->getDistanceInKilometer(),
+                    'elevation' => $activity->getElevationInMeter(),
+                    'moving-time' => $activity->getMovingTimeInSeconds(),
+                    'power' => $activity->getAveragePower(),
+                    'speed' => $activity->getAverageSpeedInKmPerH(),
+                    'heart-rate' => $activity->getAverageHeartRate(),
+                    'calories' => $activity->getCalories(),
+                ]
+            );
         }
+
+        $this->filesystem->write(
+            'build/html/fetch-json/activity-data-table.json',
+            Json::encode($dataDatableRows),
+        );
     }
 }

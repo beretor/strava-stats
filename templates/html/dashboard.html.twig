@@ -9,7 +9,7 @@
                     <h3 class="text-lg font-semibold">
                         Most recent activities
                     </h3>
-                    <a href="#" data-router-navigate="activities.html" class="inline-flex items-center p-2 text-sm font-medium rounded-lg text-blue-600 dark:text-blue-500 hover:bg-gray-100 dark:hover:bg-gray-700">
+                    <a href="#" data-router-navigate="activities" class="inline-flex items-center p-2 text-sm font-medium rounded-lg text-blue-600 dark:text-blue-500 hover:bg-gray-100 dark:hover:bg-gray-700">
                         View all
                     </a>
                 </div>
@@ -227,32 +227,32 @@
                     <svg class="w-4 h-4 ml-1 text-gray-400 hover:text-gray-500" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path></svg>
                     <span class="sr-only">Show information</span>
                 </button>
-                <span data-popover id="popover-description" role="tooltip" class="hidden lg:block lg:w-[450px] xl:w-[650px] absolute z-[100] invisible inline-block text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400">
-                <div class="p-3 space-y-2">
-                    <p>
-                        This map shows the daily training intensity for the last year.
-                        The training intensity for an activity is calculated based on several metrics.
-                    </p>
-                    <h3 class="font-semibold text-gray-900 dark:text-white">Simplified</h3>
-                    <p>
-                        This formula means that riding for an hour at your max heart rate results in a score of 100, which we consider "high intensity":
-                    </p>
-                    <blockquote class="p-4 my-4 text-xs border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800 italic leading-relaxed text-gray-600 dark:text-white">
-                        <span class="font-bold">maxHeartRate </span>= (220 - age) x 0.92<br />
-                        <span class="font-bold">intensityFactory </span>= averageHeartRate / maxHeartRate<br />
-                        <span class="font-bold">intensity</span> = (durationInSeconds x averageHeartRate x intensityFactor) / (maxHeartRate x 3600) x 100
-                    </blockquote>
-                    <h3 class="font-semibold text-gray-900 dark:text-white">Advanced</h3>
-                    <p>
-                        When power metrics and FTP are available, these metrics are used instead.
-                        This formula means that riding for an hour at your FTP results in a score of 100, which we consider "high intensity":
-                    </p>
-                    <blockquote class="p-4 my-4 text-xs border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800 italic leading-relaxed text-gray-600 dark:text-white">
-                        <span class="font-bold">intensityFactory </span>= (averagePower / FTP)<br />
-                        <span class="font-bold">intensity</span> = (durationInSeconds x averagePower x intensityFactor) / (FTP x 3600) x 100
-                    </blockquote>
+                <div data-popover id="popover-description" role="tooltip" class="hidden lg:block lg:w-[450px] xl:w-[650px] absolute z-[100] invisible inline-block text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400">
+                    <div class="p-3 space-y-2">
+                        <p>
+                            This map shows the daily training intensity for the last year.
+                            The training intensity for an activity is calculated based on several metrics.
+                        </p>
+                        <h3 class="font-semibold text-gray-900 dark:text-white">Simplified</h3>
+                        <p>
+                            This formula means that riding for an hour at your max heart rate results in a score of 100, which we consider "high intensity":
+                        </p>
+                        <blockquote class="p-4 my-4 text-xs border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800 italic leading-relaxed text-gray-600 dark:text-white">
+                            <span class="font-bold">maxHeartRate </span>= (220 - age) x 0.92<br />
+                            <span class="font-bold">intensityFactory </span>= averageHeartRate / maxHeartRate<br />
+                            <span class="font-bold">intensity</span> = (durationInSeconds x averageHeartRate x intensityFactor) / (maxHeartRate x 3600) x 100
+                        </blockquote>
+                        <h3 class="font-semibold text-gray-900 dark:text-white">Advanced</h3>
+                        <p>
+                            When power metrics and FTP are available, these metrics are used instead.
+                            This formula means that riding for an hour at your FTP results in a score of 100, which we consider "high intensity":
+                        </p>
+                        <blockquote class="p-4 my-4 text-xs border-l-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800 italic leading-relaxed text-gray-600 dark:text-white">
+                            <span class="font-bold">intensityFactory </span>= (averagePower / FTP)<br />
+                            <span class="font-bold">intensity</span> = (durationInSeconds x averagePower x intensityFactor) / (FTP x 3600) x 100
+                        </blockquote>
+                    </div>
                 </div>
-            </span>
             </div>
             <div class="relative overflow-x-auto">
                 <div class="h-52 min-w-[800px]" data-echarts-options='{{ activityHeatmapChart }}'></div>
@@ -566,7 +566,91 @@
                 </div>
             </div>
         </div>
-
+        <div class="grid grid-cols-1 gap-4 mb-4">
+            <!-- YEARLY DISTANCE STATS -->
+            <div class="p-4 mb-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
+                <h3 class="mb-4 text-lg font-semibold">
+                    Yearly distances
+                </h3>
+                <div class="mb-4 h-[20rem]" data-echarts-options='{{ yearlyDistanceChart }}'></div>
+                <div class="relative overflow-x-scroll">
+                    <table class="w-full text-sm text-center text-gray-500 dark:text-gray-400">
+                        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        <tr>
+                            <th scope="col" class="px-2 py-3 sticky left-0 bg-gray-50 dark:bg-gray-700">
+                                Year
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                <div class="flex items-center justify-center">
+                                    {{ renderSvg('distance') }}
+                                </div>
+                            </th>
+                            <th>
+                                <div class="flex items-center justify-center">
+                                    {{ renderSvg('delta') }}
+                                    Prev year
+                                </div>
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                <div class="flex items-center justify-center">
+                                    {{ renderSvg('elevation') }}
+                                </div>
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                <div class="flex items-center justify-center">
+                                    {{ renderSvg('time') }}
+                                </div>
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                <div class="flex items-center justify-center">
+                                    {{ renderSvg('calories') }}
+                                </div>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for statistic in yearlyStatistics.getStatistics() %}
+                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                                <th scope="row" class="px-2 py-2 sticky left-0 bg-white dark:bg-gray-800 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <div>{{ statistic.year }}</div>
+                                </th>
+                                <td class="px-6 py-2">
+                                    {{ statistic.totalDistance|formatNumber(0) }}<span class="text-xs">km</span>
+                                </td>
+                                <td>
+                                    <div class="flex items-center justify-center {{ statistic.differenceInDistanceYearBefore >= 0 ? 'text-green-500 dark:text-green-400': 'text-red-600 dark:text-red-500' }}">
+                                        {% if statistic.differenceInDistanceYearBefore is not null %}
+                                            {% if statistic.differenceInDistanceYearBefore >= 0 %}
+                                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                    <path clip-rule="evenodd" fill-rule="evenodd" d="M10 17a.75.75 0 01-.75-.75V5.612L5.29 9.77a.75.75 0 01-1.08-1.04l5.25-5.5a.75.75 0 011.08 0l5.25 5.5a.75.75 0 11-1.08 1.04l-3.96-4.158V16.25A.75.75 0 0110 17z"></path>
+                                                </svg>
+                                            {% else %}
+                                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                    <path clip-rule="evenodd" fill-rule="evenodd" d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z"></path>
+                                                </svg>
+                                            {% endif %}
+                                            <div>
+                                                {{ statistic.differenceInDistanceYearBefore|formatNumber(0) }}<span class="text-xs">km</span>
+                                            </div>
+                                        {% endif %}
+                                    </div>
+                                </td>
+                                <td>
+                                    {{ statistic.totalElevation|formatNumber(0) }}<span class="text-xs">m</span>
+                                </td>
+                                <td>
+                                    {{ statistic.movingTime }}
+                                </td>
+                                <td>
+                                    {{ statistic.totalCalories|formatNumber(0) }}<span class="text-xs">kcal</span>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-4 mb-4">
             <!-- HEART RATE ZONES -->
             <div class="p-4 mb-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">

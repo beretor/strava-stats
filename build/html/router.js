@@ -5,7 +5,7 @@ const spinner = app.querySelector('#spinner');
 const menu = document.querySelector('aside');
 const menuItems = document.querySelectorAll("aside li a[data-router-navigate]");
 const mobileNavTriggerEl = document.querySelector('[data-drawer-target="drawer-navigation"]');
-const defaultRoute = 'dashboard.html';
+const defaultRoute = 'dashboard';
 
 const renderContent = async (page) => {
     if(!menu.hasAttribute('aria-hidden')){
@@ -25,7 +25,7 @@ const renderContent = async (page) => {
     appContent.classList.add('hidden');
 
     // Load content.
-    const response = await fetch(page);
+    const response = await fetch(page+'.html');
     appContent.innerHTML = await response.text();
     window.scrollTo(0, 0);
 
@@ -37,9 +37,9 @@ const renderContent = async (page) => {
     app.setAttribute('data-router-current', page);
     // Manage active classes.
     menuItems.forEach(node => {
-        node.classList.remove('active')
+        node.setAttribute('aria-selected', 'false')
     });
-    document.querySelector('aside li a[data-router-navigate="'+page+'"]').classList.add('active');
+    document.querySelector('aside li a[data-router-navigate="'+page+'"]').setAttribute('aria-selected', 'true');
 
     // There might be other nav links on the newly loaded page, make sure they are registered.
     const nav =  document.querySelectorAll("nav a[data-router-navigate], main a[data-router-navigate]");
@@ -47,10 +47,11 @@ const renderContent = async (page) => {
 
     document.dispatchEvent(new CustomEvent('pageWasLoaded', {
         bubbles: true,
-        cancelable: true,
-        detail: {
-            page: page
-        }
+        cancelable: false,
+    }));
+    document.dispatchEvent(new CustomEvent('pageWasLoaded.'+page, {
+        bubbles: true,
+        cancelable: false,
     }));
 };
 
@@ -75,6 +76,9 @@ const registerNavItems = (items) => {
 
 const registerBrowserBackAndForth = () => {
     window.onpopstate = function (e) {
+        if(!e.state){
+            return;
+        }
         renderContent(e.state.route);
     };
 };

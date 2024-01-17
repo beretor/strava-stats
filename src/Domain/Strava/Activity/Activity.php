@@ -2,6 +2,7 @@
 
 namespace App\Domain\Strava\Activity;
 
+use App\Domain\Nominatim\Location;
 use App\Domain\Strava\Activity\Stream\PowerOutput;
 use App\Domain\Strava\Ftp\FtpValue;
 use App\Domain\Strava\Gear\GearId;
@@ -41,6 +42,8 @@ final class Activity extends AggregateRoot
         #[ORM\Column(type: 'json')]
         private array $data,
         #[ORM\Column(type: 'json', nullable: true)]
+        private ?Location $location = null,
+        #[ORM\Column(type: 'json', nullable: true)]
         private array $weather = [],
         #[ORM\Column(type: 'string', nullable: true)]
         private ?GearId $gearId = null,
@@ -72,6 +75,7 @@ final class Activity extends AggregateRoot
         ActivityId $activityId,
         SerializableDateTime $startDateTime,
         array $data,
+        Location $location = null,
         array $weather = [],
         GearId $gearId = null,
     ): self {
@@ -79,6 +83,7 @@ final class Activity extends AggregateRoot
             activityId: $activityId,
             startDateTime: $startDateTime,
             data: $data,
+            location: $location,
             weather: $weather,
             gearId: $gearId
         );
@@ -239,6 +244,18 @@ final class Activity extends AggregateRoot
     public function updateName(string $name): self
     {
         $this->data['name'] = $name;
+
+        return $this;
+    }
+
+    public function getDescription(): ?string
+    {
+        return trim($this->data['description'] ?? '');
+    }
+
+    public function updateDescription(string $description): self
+    {
+        $this->data['description'] = $description;
 
         return $this;
     }
@@ -480,5 +497,15 @@ final class Activity extends AggregateRoot
         if (isset($this->data['segment_efforts'])) {
             unset($this->data['segment_efforts']);
         }
+    }
+
+    public function getLocation(): ?Location
+    {
+        return $this->location;
+    }
+
+    public function updateLocation(Location $location = null): void
+    {
+        $this->location = $location;
     }
 }

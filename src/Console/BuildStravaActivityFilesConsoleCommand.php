@@ -8,11 +8,13 @@ use App\Domain\Strava\Activity\BuildEddingtonChart\BuildEddingtonChart;
 use App\Domain\Strava\Activity\BuildLatestStravaActivities\BuildLatestStravaActivities;
 use App\Domain\Strava\Activity\BuildWeekdayStatsChart\BuildWeekdayStatsChart;
 use App\Domain\Strava\Activity\BuildWeeklyDistanceChart\BuildWeeklyDistanceChart;
+use App\Domain\Strava\Activity\BuildYearlyDistanceChart\BuildYearlyDistanceChart;
 use App\Domain\Strava\BuildHtmlVersion\BuildHtmlVersion;
 use App\Domain\Strava\BuildReadMe\BuildReadMe;
 use App\Domain\Strava\CopyDataToReadDatabase\CopyDataToReadDatabase;
 use App\Domain\Strava\ReachedStravaApiRateLimits;
 use App\Infrastructure\CQRS\CommandBus;
+use App\Infrastructure\Time\ResourceUsage\ResourceUsage;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -23,13 +25,15 @@ final class BuildStravaActivityFilesConsoleCommand extends Command
 {
     public function __construct(
         private readonly CommandBus $commandBus,
-        private readonly ReachedStravaApiRateLimits $reachedStravaApiRateLimits
+        private readonly ReachedStravaApiRateLimits $reachedStravaApiRateLimits,
+        private readonly ResourceUsage $resourceUsage,
     ) {
         parent::__construct();
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
+        $this->resourceUsage->startTimer();
         if ($this->reachedStravaApiRateLimits->hasReached()) {
             $output->writeln('Reached Strava API rate limits, cannot build stats yet...');
 
@@ -49,10 +53,18 @@ final class BuildStravaActivityFilesConsoleCommand extends Command
         $this->commandBus->dispatch(new BuildActivityHeatmapChart());
         $output->writeln('Building Eddington chart...');
         $this->commandBus->dispatch(new BuildEddingtonChart());
+        $output->writeln('Building yearly distance chart..');
+        $this->commandBus->dispatch(new BuildYearlyDistanceChart());
         $output->writeln('Building README...');
         $this->commandBus->dispatch(new BuildReadMe());
         $output->writeln('Building HTML...');
         $this->commandBus->dispatch(new BuildHtmlVersion());
+
+        $this->resourceUsage->stopTimer();
+        $output->writeln(sprintf(
+            '<info>%s</info>',
+            $this->resourceUsage->format(),
+        ));
 
         return Command::SUCCESS;
     }

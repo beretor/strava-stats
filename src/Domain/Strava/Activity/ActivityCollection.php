@@ -8,6 +8,8 @@ use App\Domain\Strava\Calendar\Month;
 use App\Domain\Strava\Calendar\Week;
 use App\Infrastructure\ValueObject\Collection;
 use App\Infrastructure\ValueObject\Time\SerializableDateTime;
+use App\Infrastructure\ValueObject\Time\Year;
+use App\Infrastructure\ValueObject\Time\YearCollection;
 
 /**
  * @extends Collection<Activity>
@@ -21,9 +23,9 @@ final class ActivityCollection extends Collection
 
     public function getFirstActivityStartDate(): SerializableDateTime
     {
-        $startDate = new SerializableDateTime();
+        $startDate = null;
         foreach ($this as $activity) {
-            if ($activity->getStartDate()->isAfterOrOn($startDate)) {
+            if ($startDate && $activity->getStartDate()->isAfterOrOn($startDate)) {
                 continue;
             }
             $startDate = $activity->getStartDate();
@@ -44,7 +46,7 @@ final class ActivityCollection extends Collection
 
     public function filterOnWeek(Week $week): ActivityCollection
     {
-        return $this->filter(fn (Activity $activity) => $activity->getStartDate()->getYearAndWeekNumber() === $week->getId());
+        return $this->filter(fn (Activity $activity) => $activity->getStartDate()->getYearAndWeekNumberString() === $week->getId());
     }
 
     public function filterOnDateRange(SerializableDateTime $fromDate, SerializableDateTime $toDate): ActivityCollection
@@ -65,5 +67,20 @@ final class ActivityCollection extends Collection
         $activity = reset($activities);
 
         return $activity;
+    }
+
+    public function getUniqueYears(): YearCollection
+    {
+        $years = YearCollection::empty();
+        /** @var \App\Domain\Strava\Activity\Activity $activity */
+        foreach ($this as $activity) {
+            $activityYear = Year::fromInt($activity->getStartDate()->getYear());
+            if ($years->has($activityYear)) {
+                continue;
+            }
+            $years->add($activityYear);
+        }
+
+        return $years;
     }
 }
