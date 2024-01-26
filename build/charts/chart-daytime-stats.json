@@ -1,0 +1,60 @@
+{
+    "width": 1000,
+    "height": 300,
+    "options": {
+        "backgroundColor": "#ffffff",
+        "animation": false,
+        "grid": {
+            "left": "3%",
+            "right": "4%",
+            "bottom": "3%",
+            "containLabel": true
+        },
+        "legend": {
+            "show": false
+        },
+        "tooltip": {
+            "trigger": "item",
+            "formatter": "{d}%"
+        },
+        "series": [
+            {
+                "type": "pie",
+                "itemStyle": {
+                    "borderColor": "#fff",
+                    "borderWidth": 2
+                },
+                "label": {
+                    "formatter": "{daytime|{b}}\n{sub|{d}%}",
+                    "lineHeight": 15,
+                    "rich": {
+                        "daytime": {
+                            "fontWeight": "bold"
+                        },
+                        "sub": {
+                            "fontSize": 12
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "value": 69.31,
+                        "name": "\ud83c\udf1e Morning"
+                    },
+                    {
+                        "value": 14.65,
+                        "name": "\ud83c\udf06 Afternoon"
+                    },
+                    {
+                        "value": 15.8,
+                        "name": "\ud83c\udf03 Evening"
+                    },
+                    {
+                        "value": 0.24,
+                        "name": "\ud83c\udf19 Night"
+                    }
+                ]
+            }
+        ]
+    }
+}
