@@ -12,6 +12,19 @@
             <tr>
             <td>12-03-24</td>
             <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #21" title="Vélotaf #21"/>
+<a href="https://www.strava.com/activities/10946902459" title="Kcal: 203 | Gear: None ">Vélotaf #21</a>
+            </td>
+            <td align="center">7 <sup><sub>km</sub></sup></td>
+            <td align="center">21 <sup><sub>m</sub></sup></td>
+            <td align="center">20:18</td>
+            <td align="center">129 <sup><sub>w</sub></sup></td>
+            <td align="center">21.7 <sup><sub>km/h</sub></sup></td>
+            <td align="center">126</td>
+        </tr>
+            <tr>
+            <td>12-03-24</td>
+            <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #20" title="Vélotaf #20"/>
 <a href="https://www.strava.com/activities/10944171948" title="Kcal: 264 | Gear: None ">Vélotaf #20</a>
             </td>
@@ -60,19 +73,6 @@
             <td align="center">169 <sup><sub>w</sub></sup></td>
             <td align="center">33.2 <sup><sub>km/h</sub></sup></td>
             <td align="center">136</td>
-        </tr>
-            <tr>
-            <td>09-03-24</td>
-            <td>
-                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Serrated in Watopia" title="Serrated in Watopia"/>
-<a href="https://www.strava.com/activities/10920960610" title="Kcal: 1003 | Gear: None ">Serrated in Watopia</a>
-            </td>
-            <td align="center">41 <sup><sub>km</sub></sup></td>
-            <td align="center">916 <sup><sub>m</sub></sup></td>
-            <td align="center">1:30:50</td>
-            <td align="center">193 <sup><sub>w</sub></sup></td>
-            <td align="center">27 <sup><sub>km/h</sub></sup></td>
-            <td align="center">161</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
