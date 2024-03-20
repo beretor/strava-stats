@@ -10,6 +10,19 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>20-03-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #26" title="Vélotaf #26"/>
+<a href="https://www.strava.com/activities/11000892273" title="Kcal: 371 | Gear: None ">Vélotaf #26</a>
+            </td>
+            <td align="center">17 <sup><sub>km</sub></sup></td>
+            <td align="center">56 <sup><sub>m</sub></sup></td>
+            <td align="center">54:32</td>
+            <td align="center">114 <sup><sub>w</sub></sup></td>
+            <td align="center">18.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">109</td>
+        </tr>
+            <tr>
             <td>19-03-24</td>
             <td>
                                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Volcano Climb Forward in Watopia" title="Volcano Climb Forward in Watopia"/>
@@ -59,19 +72,6 @@
             <td align="center">15:09</td>
             <td align="center">124 <sup><sub>w</sub></sup></td>
             <td align="center">21.4 <sup><sub>km/h</sub></sup></td>
-            <td align="center">120</td>
-        </tr>
-            <tr>
-            <td>15-03-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #24" title="Vélotaf #24"/>
-<a href="https://www.strava.com/activities/10966400216" title="Kcal: 548 | Gear: None ">Vélotaf #24</a>
-            </td>
-            <td align="center">19 <sup><sub>km</sub></sup></td>
-            <td align="center">77 <sup><sub>m</sub></sup></td>
-            <td align="center">1:00:05</td>
-            <td align="center">125 <sup><sub>w</sub></sup></td>
-            <td align="center">19.4 <sup><sub>km/h</sub></sup></td>
             <td align="center">120</td>
         </tr>
                 <tr>
