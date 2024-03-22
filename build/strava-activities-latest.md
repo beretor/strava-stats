@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>22-03-24</td>
+            <td>
+                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Zwift Pro Training Camp: INEOS Grenadiers | Team Workout 2 in Watopia" title="Zwift Pro Training Camp: INEOS Grenadiers | Team Workout 2 in Watopia"/>
+<a href="https://www.strava.com/activities/11015940479" title="Kcal: 453 | Gear: None ">Zwift Pro Training Camp: I...</a>
+            </td>
+            <td align="center">26 <sup><sub>km</sub></sup></td>
+            <td align="center">186 <sup><sub>m</sub></sup></td>
+            <td align="center">46:59</td>
+            <td align="center">169 <sup><sub>w</sub></sup></td>
+            <td align="center">33.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">127</td>
+        </tr>
+            <tr>
+            <td>22-03-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #27" title="Vélotaf #27"/>
+<a href="https://www.strava.com/activities/11014249099" title="Kcal: 338 | Gear: None ">Vélotaf #27</a>
+            </td>
+            <td align="center">17 <sup><sub>km</sub></sup></td>
+            <td align="center">71 <sup><sub>m</sub></sup></td>
+            <td align="center">57:18</td>
+            <td align="center">113 <sup><sub>w</sub></sup></td>
+            <td align="center">18.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">102</td>
+        </tr>
+            <tr>
             <td>21-03-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Morning Ride" title="Morning Ride"/>
@@ -47,32 +73,6 @@
             <td align="center">202 <sup><sub>w</sub></sup></td>
             <td align="center">34.4 <sup><sub>km/h</sub></sup></td>
             <td align="center">147</td>
-        </tr>
-            <tr>
-            <td>18-03-24</td>
-            <td>
-                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Wild Starts in Paris" title="Wild Starts in Paris"/>
-<a href="https://www.strava.com/activities/10985845057" title="Kcal: 589 | Gear: None ">Wild Starts in Paris</a>
-            </td>
-            <td align="center">30 <sup><sub>km</sub></sup></td>
-            <td align="center">183 <sup><sub>m</sub></sup></td>
-            <td align="center">56:24</td>
-            <td align="center">182 <sup><sub>w</sub></sup></td>
-            <td align="center">31.9 <sup><sub>km/h</sub></sup></td>
-            <td align="center">145</td>
-        </tr>
-            <tr>
-            <td>17-03-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
-<a href="https://www.strava.com/activities/10977739840" title="Kcal: 3064 | Gear: None ">Sortie vélo le matin</a>
-            </td>
-            <td align="center">122 <sup><sub>km</sub></sup></td>
-            <td align="center">1 112 <sup><sub>m</sub></sup></td>
-            <td align="center">4:43:57</td>
-            <td align="center">157 <sup><sub>w</sub></sup></td>
-            <td align="center">25.7 <sup><sub>km/h</sub></sup></td>
-            <td align="center">141</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
