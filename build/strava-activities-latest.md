@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>12-04-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le midi" title="Sortie vélo le midi"/>
+<a href="https://www.strava.com/activities/11163100629" title="Kcal: 834 | Gear: None ">Sortie vélo le midi</a>
+            </td>
+            <td align="center">31 <sup><sub>km</sub></sup></td>
+            <td align="center">458 <sup><sub>m</sub></sup></td>
+            <td align="center">1:08:43</td>
+            <td align="center">180 <sup><sub>w</sub></sup></td>
+            <td align="center">27.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">125</td>
+        </tr>
+            <tr>
+            <td>11-04-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Col du Rousset et al." title="Col du Rousset et al."/>
+<a href="https://www.strava.com/activities/11156777974" title="Kcal: 4402 | Gear: None ">Col du Rousset et al.</a>
+            </td>
+            <td align="center">160 <sup><sub>km</sub></sup></td>
+            <td align="center">2 835 <sup><sub>m</sub></sup></td>
+            <td align="center">6:37:54</td>
+            <td align="center">159 <sup><sub>w</sub></sup></td>
+            <td align="center">24.2 <sup><sub>km/h</sub></sup></td>
+            <td align="center">140</td>
+        </tr>
+            <tr>
             <td>10-04-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Tour de la Combe Laval 🥶🥶🥶 💨💨💨" title="Tour de la Combe Laval 🥶🥶🥶 💨💨💨"/>
@@ -47,32 +73,6 @@
             <td align="center">213 <sup><sub>w</sub></sup></td>
             <td align="center">29.6 <sup><sub>km/h</sub></sup></td>
             <td align="center">148</td>
-        </tr>
-            <tr>
-            <td>05-04-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #31" title="Vélotaf #31"/>
-<a href="https://www.strava.com/activities/11113592126" title="Kcal: 480 | Gear: None ">Vélotaf #31</a>
-            </td>
-            <td align="center">17 <sup><sub>km</sub></sup></td>
-            <td align="center">67 <sup><sub>m</sub></sup></td>
-            <td align="center">56:58</td>
-            <td align="center">110 <sup><sub>w</sub></sup></td>
-            <td align="center">17.9 <sup><sub>km/h</sub></sup></td>
-            <td align="center">119</td>
-        </tr>
-            <tr>
-            <td>04-04-24</td>
-            <td>
-                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Exigent in Watopia" title="Exigent in Watopia"/>
-<a href="https://www.strava.com/activities/11103454814" title="Kcal: 994 | Gear: None ">Exigent in Watopia</a>
-            </td>
-            <td align="center">52 <sup><sub>km</sub></sup></td>
-            <td align="center">407 <sup><sub>m</sub></sup></td>
-            <td align="center">1:32:06</td>
-            <td align="center">189 <sup><sub>w</sub></sup></td>
-            <td align="center">33.9 <sup><sub>km/h</sub></sup></td>
-            <td align="center">143</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
