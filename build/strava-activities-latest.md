@@ -10,6 +10,19 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>20-04-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Col des Limouches par le col J Cavalli" title="Col des Limouches par le col J Cavalli"/>
+<a href="https://www.strava.com/activities/11222529707" title="Kcal: 2491 | Gear: None ">Col des Limouches par le c...</a>
+            </td>
+            <td align="center">85 <sup><sub>km</sub></sup></td>
+            <td align="center">1 628 <sup><sub>m</sub></sup></td>
+            <td align="center">3:25:09</td>
+            <td align="center">179 <sup><sub>w</sub></sup></td>
+            <td align="center">24.9 <sup><sub>km/h</sub></sup></td>
+            <td align="center">143</td>
+        </tr>
+            <tr>
             <td>19-04-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Voie Verte Isère" title="Voie Verte Isère"/>
@@ -60,19 +73,6 @@
             <td align="center">55 <sup><sub>w</sub></sup></td>
             <td align="center">8.9 <sup><sub>km/h</sub></sup></td>
             <td align="center">85</td>
-        </tr>
-            <tr>
-            <td>12-04-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le midi" title="Sortie vélo le midi"/>
-<a href="https://www.strava.com/activities/11163100629" title="Kcal: 834 | Gear: None ">Sortie vélo le midi</a>
-            </td>
-            <td align="center">31 <sup><sub>km</sub></sup></td>
-            <td align="center">458 <sup><sub>m</sub></sup></td>
-            <td align="center">1:08:43</td>
-            <td align="center">180 <sup><sub>w</sub></sup></td>
-            <td align="center">27.4 <sup><sub>km/h</sub></sup></td>
-            <td align="center">125</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
