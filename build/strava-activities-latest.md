@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>22-04-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #32" title="Vélotaf #32"/>
+<a href="https://www.strava.com/activities/11240089763" title="Kcal: 387 | Gear: None ">Vélotaf #32</a>
+            </td>
+            <td align="center">17 <sup><sub>km</sub></sup></td>
+            <td align="center">67 <sup><sub>m</sub></sup></td>
+            <td align="center">54:21</td>
+            <td align="center">117 <sup><sub>w</sub></sup></td>
+            <td align="center">18.2 <sup><sub>km/h</sub></sup></td>
+            <td align="center">108</td>
+        </tr>
+            <tr>
+            <td>21-04-24</td>
+            <td>
+                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Going Up The Zones on Countryside Tour in Watopia" title="Going Up The Zones on Countryside Tour in Watopia"/>
+<a href="https://www.strava.com/activities/11234835511" title="Kcal: 617 | Gear: None ">Going Up The Zones on Coun...</a>
+            </td>
+            <td align="center">34 <sup><sub>km</sub></sup></td>
+            <td align="center">109 <sup><sub>m</sub></sup></td>
+            <td align="center">1:00:31</td>
+            <td align="center">178 <sup><sub>w</sub></sup></td>
+            <td align="center">34.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">132</td>
+        </tr>
+            <tr>
             <td>20-04-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Col des Limouches par le col J Cavalli" title="Col des Limouches par le col J Cavalli"/>
@@ -47,32 +73,6 @@
             <td align="center">161 <sup><sub>w</sub></sup></td>
             <td align="center">24.2 <sup><sub>km/h</sub></sup></td>
             <td align="center">138</td>
-        </tr>
-            <tr>
-            <td>16-04-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
-<a href="https://www.strava.com/activities/11193658910" title="Kcal: 1068 | Gear: None ">Sortie vélo le matin</a>
-            </td>
-            <td align="center">47 <sup><sub>km</sub></sup></td>
-            <td align="center">646 <sup><sub>m</sub></sup></td>
-            <td align="center">2:37:04</td>
-            <td align="center">90 <sup><sub>w</sub></sup></td>
-            <td align="center">17.9 <sup><sub>km/h</sub></sup></td>
-            <td align="center">105</td>
-        </tr>
-            <tr>
-            <td>13-04-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="St Bonnet en famille" title="St Bonnet en famille"/>
-<a href="https://www.strava.com/activities/11170404971" title="Kcal: 382 | Gear: None ">St Bonnet en famille</a>
-            </td>
-            <td align="center">13 <sup><sub>km</sub></sup></td>
-            <td align="center">206 <sup><sub>m</sub></sup></td>
-            <td align="center">1:30:35</td>
-            <td align="center">55 <sup><sub>w</sub></sup></td>
-            <td align="center">8.9 <sup><sub>km/h</sub></sup></td>
-            <td align="center">85</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
