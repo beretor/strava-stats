@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>23-04-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #34" title="Vélotaf #34"/>
+<a href="https://www.strava.com/activities/11249518774" title="Kcal: 243 | Gear: None ">Vélotaf #34</a>
+            </td>
+            <td align="center">8 <sup><sub>km</sub></sup></td>
+            <td align="center">22 <sup><sub>m</sub></sup></td>
+            <td align="center">23:05</td>
+            <td align="center">118 <sup><sub>w</sub></sup></td>
+            <td align="center">19.9 <sup><sub>km/h</sub></sup></td>
+            <td align="center">127</td>
+        </tr>
+            <tr>
+            <td>23-04-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #33" title="Vélotaf #33"/>
+<a href="https://www.strava.com/activities/11249158869" title="Kcal: 210 | Gear: None ">Vélotaf #33</a>
+            </td>
+            <td align="center">9 <sup><sub>km</sub></sup></td>
+            <td align="center">29 <sup><sub>m</sub></sup></td>
+            <td align="center">28:23</td>
+            <td align="center">117 <sup><sub>w</sub></sup></td>
+            <td align="center">18 <sup><sub>km/h</sub></sup></td>
+            <td align="center">111</td>
+        </tr>
+            <tr>
             <td>22-04-24</td>
             <td>
                                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="02. Endurance Escalator in Watopia" title="02. Endurance Escalator in Watopia"/>
@@ -47,32 +73,6 @@
             <td align="center">178 <sup><sub>w</sub></sup></td>
             <td align="center">34.1 <sup><sub>km/h</sub></sup></td>
             <td align="center">132</td>
-        </tr>
-            <tr>
-            <td>20-04-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Col des Limouches par le col J Cavalli" title="Col des Limouches par le col J Cavalli"/>
-<a href="https://www.strava.com/activities/11222529707" title="Kcal: 2491 | Gear: None ">Col des Limouches par le c...</a>
-            </td>
-            <td align="center">85 <sup><sub>km</sub></sup></td>
-            <td align="center">1 628 <sup><sub>m</sub></sup></td>
-            <td align="center">3:25:09</td>
-            <td align="center">179 <sup><sub>w</sub></sup></td>
-            <td align="center">24.9 <sup><sub>km/h</sub></sup></td>
-            <td align="center">143</td>
-        </tr>
-            <tr>
-            <td>19-04-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Voie Verte Isère" title="Voie Verte Isère"/>
-<a href="https://www.strava.com/activities/11215806553" title="Kcal: 1073 | Gear: None ">Voie Verte Isère</a>
-            </td>
-            <td align="center">50 <sup><sub>km</sub></sup></td>
-            <td align="center">494 <sup><sub>m</sub></sup></td>
-            <td align="center">2:38:50</td>
-            <td align="center">88 <sup><sub>w</sub></sup></td>
-            <td align="center">19 <sup><sub>km/h</sub></sup></td>
-            <td align="center">103</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
