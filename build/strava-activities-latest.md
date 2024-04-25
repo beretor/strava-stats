@@ -10,6 +10,58 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>25-04-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #37" title="Vélotaf #37"/>
+<a href="https://www.strava.com/activities/11262793048" title="Kcal: 497 | Gear: None ">Vélotaf #37</a>
+            </td>
+            <td align="center">17 <sup><sub>km</sub></sup></td>
+            <td align="center">73 <sup><sub>m</sub></sup></td>
+            <td align="center">53:11</td>
+            <td align="center">124 <sup><sub>w</sub></sup></td>
+            <td align="center">19.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">125</td>
+        </tr>
+            <tr>
+            <td>25-04-24</td>
+            <td>
+                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Lumpy Ramps in Watopia" title="Lumpy Ramps in Watopia"/>
+<a href="https://www.strava.com/activities/11259285036" title="Kcal: 693 | Gear: None ">Lumpy Ramps in Watopia</a>
+            </td>
+            <td align="center">34 <sup><sub>km</sub></sup></td>
+            <td align="center">408 <sup><sub>m</sub></sup></td>
+            <td align="center">1:06:15</td>
+            <td align="center">183 <sup><sub>w</sub></sup></td>
+            <td align="center">30.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">146</td>
+        </tr>
+            <tr>
+            <td>24-04-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #36" title="Vélotaf #36"/>
+<a href="https://www.strava.com/activities/11256647988" title="Kcal: 159 | Gear: None ">Vélotaf #36</a>
+            </td>
+            <td align="center">7 <sup><sub>km</sub></sup></td>
+            <td align="center">22 <sup><sub>m</sub></sup></td>
+            <td align="center">20:26</td>
+            <td align="center">121 <sup><sub>w</sub></sup></td>
+            <td align="center">21.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">111</td>
+        </tr>
+            <tr>
+            <td>24-04-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #35" title="Vélotaf #35"/>
+<a href="https://www.strava.com/activities/11256544530" title="Kcal: 171 | Gear: None ">Vélotaf #35</a>
+            </td>
+            <td align="center">9 <sup><sub>km</sub></sup></td>
+            <td align="center">30 <sup><sub>m</sub></sup></td>
+            <td align="center">27:43</td>
+            <td align="center">123 <sup><sub>w</sub></sup></td>
+            <td align="center">19.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">102</td>
+        </tr>
+            <tr>
             <td>23-04-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #34" title="Vélotaf #34"/>
@@ -21,58 +73,6 @@
             <td align="center">118 <sup><sub>w</sub></sup></td>
             <td align="center">19.9 <sup><sub>km/h</sub></sup></td>
             <td align="center">127</td>
-        </tr>
-            <tr>
-            <td>23-04-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #33" title="Vélotaf #33"/>
-<a href="https://www.strava.com/activities/11249158869" title="Kcal: 210 | Gear: None ">Vélotaf #33</a>
-            </td>
-            <td align="center">9 <sup><sub>km</sub></sup></td>
-            <td align="center">29 <sup><sub>m</sub></sup></td>
-            <td align="center">28:23</td>
-            <td align="center">117 <sup><sub>w</sub></sup></td>
-            <td align="center">18 <sup><sub>km/h</sub></sup></td>
-            <td align="center">111</td>
-        </tr>
-            <tr>
-            <td>22-04-24</td>
-            <td>
-                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="02. Endurance Escalator in Watopia" title="02. Endurance Escalator in Watopia"/>
-<a href="https://www.strava.com/activities/11241333781" title="Kcal: 552 | Gear: None ">02. Endurance Escalator in...</a>
-            </td>
-            <td align="center">28 <sup><sub>km</sub></sup></td>
-            <td align="center">245 <sup><sub>m</sub></sup></td>
-            <td align="center">50:35</td>
-            <td align="center">191 <sup><sub>w</sub></sup></td>
-            <td align="center">33.3 <sup><sub>km/h</sub></sup></td>
-            <td align="center">150</td>
-        </tr>
-            <tr>
-            <td>22-04-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #32" title="Vélotaf #32"/>
-<a href="https://www.strava.com/activities/11240089763" title="Kcal: 387 | Gear: None ">Vélotaf #32</a>
-            </td>
-            <td align="center">17 <sup><sub>km</sub></sup></td>
-            <td align="center">67 <sup><sub>m</sub></sup></td>
-            <td align="center">54:21</td>
-            <td align="center">117 <sup><sub>w</sub></sup></td>
-            <td align="center">18.2 <sup><sub>km/h</sub></sup></td>
-            <td align="center">108</td>
-        </tr>
-            <tr>
-            <td>21-04-24</td>
-            <td>
-                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Going Up The Zones on Countryside Tour in Watopia" title="Going Up The Zones on Countryside Tour in Watopia"/>
-<a href="https://www.strava.com/activities/11234835511" title="Kcal: 617 | Gear: None ">Going Up The Zones on Coun...</a>
-            </td>
-            <td align="center">34 <sup><sub>km</sub></sup></td>
-            <td align="center">109 <sup><sub>m</sub></sup></td>
-            <td align="center">1:00:31</td>
-            <td align="center">178 <sup><sub>w</sub></sup></td>
-            <td align="center">34.1 <sup><sub>km/h</sub></sup></td>
-            <td align="center">132</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
