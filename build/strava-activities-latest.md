@@ -10,6 +10,45 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>18-05-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Retour Toulouse" title="Retour Toulouse"/>
+<a href="https://www.strava.com/activities/11438221336" title="Kcal: 2876 | Gear: None ">Retour Toulouse</a>
+            </td>
+            <td align="center">128 <sup><sub>km</sub></sup></td>
+            <td align="center">1 001 <sup><sub>m</sub></sup></td>
+            <td align="center">4:52:27</td>
+            <td align="center">140 <sup><sub>w</sub></sup></td>
+            <td align="center">26.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">120</td>
+        </tr>
+            <tr>
+            <td>17-05-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Marie Blanque, Aubisque, Soulor" title="Marie Blanque, Aubisque, Soulor"/>
+<a href="https://www.strava.com/activities/11434161261" title="Kcal: 5210 | Gear: None ">Marie Blanque, Aubisque, S...</a>
+            </td>
+            <td align="center">169 <sup><sub>km</sub></sup></td>
+            <td align="center">3 408 <sup><sub>m</sub></sup></td>
+            <td align="center">8:59:15</td>
+            <td align="center">132 <sup><sub>w</sub></sup></td>
+            <td align="center">18.8 <sup><sub>km/h</sub></sup></td>
+            <td align="center">126</td>
+        </tr>
+            <tr>
+            <td>16-05-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Col d&#039;Iraty" title="Col d&#039;Iraty"/>
+<a href="https://www.strava.com/activities/11434156225" title="Kcal: 3272 | Gear: None ">Col d&#039;Iraty</a>
+            </td>
+            <td align="center">103 <sup><sub>km</sub></sup></td>
+            <td align="center">2 183 <sup><sub>m</sub></sup></td>
+            <td align="center">5:21:14</td>
+            <td align="center">145 <sup><sub>w</sub></sup></td>
+            <td align="center">19.3 <sup><sub>km/h</sub></sup></td>
+            <td align="center">122</td>
+        </tr>
+            <tr>
             <td>16-05-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélo du midi" title="Vélo du midi"/>
@@ -34,45 +73,6 @@
             <td align="center">102 <sup><sub>w</sub></sup></td>
             <td align="center">17.1 <sup><sub>km/h</sub></sup></td>
             <td align="center">100</td>
-        </tr>
-            <tr>
-            <td>15-05-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #41" title="Vélotaf #41"/>
-<a href="https://www.strava.com/activities/11414910935" title="Kcal: 108 | Gear: None ">Vélotaf #41</a>
-            </td>
-            <td align="center">6 <sup><sub>km</sub></sup></td>
-            <td align="center">33 <sup><sub>m</sub></sup></td>
-            <td align="center">17:01</td>
-            <td align="center">125 <sup><sub>w</sub></sup></td>
-            <td align="center">19.4 <sup><sub>km/h</sub></sup></td>
-            <td align="center">102</td>
-        </tr>
-            <tr>
-            <td>14-05-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #40" title="Vélotaf #40"/>
-<a href="https://www.strava.com/activities/11408959238" title="Kcal: 403 | Gear: None ">Vélotaf #40</a>
-            </td>
-            <td align="center">20 <sup><sub>km</sub></sup></td>
-            <td align="center">77 <sup><sub>m</sub></sup></td>
-            <td align="center">1:10:45</td>
-            <td align="center">106 <sup><sub>w</sub></sup></td>
-            <td align="center">17.3 <sup><sub>km/h</sub></sup></td>
-            <td align="center">101</td>
-        </tr>
-            <tr>
-            <td>13-05-24</td>
-            <td>
-                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Pre-Race in New York" title="Pre-Race in New York"/>
-<a href="https://www.strava.com/activities/11399979538" title="Kcal: 544 | Gear: None ">Pre-Race in New York</a>
-            </td>
-            <td align="center">27 <sup><sub>km</sub></sup></td>
-            <td align="center">418 <sup><sub>m</sub></sup></td>
-            <td align="center">56:26</td>
-            <td align="center">169 <sup><sub>w</sub></sup></td>
-            <td align="center">28.4 <sup><sub>km/h</sub></sup></td>
-            <td align="center">148</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
