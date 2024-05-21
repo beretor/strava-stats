@@ -10,6 +10,19 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>21-05-24</td>
+            <td>
+                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Progressive 11&#039;s #2 in Richmond" title="Progressive 11&#039;s #2 in Richmond"/>
+<a href="https://www.strava.com/activities/11461352331" title="Kcal: 652 | Gear: None ">Progressive 11&#039;s #2 in Ric...</a>
+            </td>
+            <td align="center">32 <sup><sub>km</sub></sup></td>
+            <td align="center">288 <sup><sub>m</sub></sup></td>
+            <td align="center">1:01:09</td>
+            <td align="center">186 <sup><sub>w</sub></sup></td>
+            <td align="center">31.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">142</td>
+        </tr>
+            <tr>
             <td>18-05-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo de nuit" title="Sortie vélo de nuit"/>
@@ -51,8 +64,8 @@
             <tr>
             <td>16-05-24</td>
             <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Col d&#039;Iraty" title="Col d&#039;Iraty"/>
-<a href="https://www.strava.com/activities/11434156225" title="Kcal: 3272 | Gear: None ">Col d&#039;Iraty</a>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Col de Behorleguy" title="Col de Behorleguy"/>
+<a href="https://www.strava.com/activities/11434156225" title="Kcal: 3272 | Gear: None ">Col de Behorleguy</a>
             </td>
             <td align="center">103 <sup><sub>km</sub></sup></td>
             <td align="center">2 183 <sup><sub>m</sub></sup></td>
@@ -60,19 +73,6 @@
             <td align="center">145 <sup><sub>w</sub></sup></td>
             <td align="center">19.3 <sup><sub>km/h</sub></sup></td>
             <td align="center">122</td>
-        </tr>
-            <tr>
-            <td>16-05-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélo du midi" title="Vélo du midi"/>
-<a href="https://www.strava.com/activities/11423238148" title="Kcal: 215 | Gear: None ">Vélo du midi</a>
-            </td>
-            <td align="center">9 <sup><sub>km</sub></sup></td>
-            <td align="center">57 <sup><sub>m</sub></sup></td>
-            <td align="center">30:46</td>
-            <td align="center">94 <sup><sub>w</sub></sup></td>
-            <td align="center">18.1 <sup><sub>km/h</sub></sup></td>
-            <td align="center">102</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
