@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>23-05-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #44" title="Vélotaf #44"/>
+<a href="https://www.strava.com/activities/11478981638" title="Kcal: 615 | Gear: None ">Vélotaf #44</a>
+            </td>
+            <td align="center">20 <sup><sub>km</sub></sup></td>
+            <td align="center">85 <sup><sub>m</sub></sup></td>
+            <td align="center">1:07:07</td>
+            <td align="center">111 <sup><sub>w</sub></sup></td>
+            <td align="center">18.1 <sup><sub>km/h</sub></sup></td>
+            <td align="center">118</td>
+        </tr>
+            <tr>
+            <td>22-05-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #43" title="Vélotaf #43"/>
+<a href="https://www.strava.com/activities/11474174984" title="Kcal: 535 | Gear: None ">Vélotaf #43</a>
+            </td>
+            <td align="center">24 <sup><sub>km</sub></sup></td>
+            <td align="center">71 <sup><sub>m</sub></sup></td>
+            <td align="center">1:16:21</td>
+            <td align="center">111 <sup><sub>w</sub></sup></td>
+            <td align="center">18.9 <sup><sub>km/h</sub></sup></td>
+            <td align="center">107</td>
+        </tr>
+            <tr>
             <td>21-05-24</td>
             <td>
                                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Progressive 11&#039;s #2 in Richmond" title="Progressive 11&#039;s #2 in Richmond"/>
@@ -47,32 +73,6 @@
             <td align="center">140 <sup><sub>w</sub></sup></td>
             <td align="center">26.3 <sup><sub>km/h</sub></sup></td>
             <td align="center">120</td>
-        </tr>
-            <tr>
-            <td>17-05-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Marie Blanque, Aubisque, Soulor" title="Marie Blanque, Aubisque, Soulor"/>
-<a href="https://www.strava.com/activities/11434161261" title="Kcal: 5210 | Gear: None ">Marie Blanque, Aubisque, S...</a>
-            </td>
-            <td align="center">169 <sup><sub>km</sub></sup></td>
-            <td align="center">3 408 <sup><sub>m</sub></sup></td>
-            <td align="center">8:59:15</td>
-            <td align="center">132 <sup><sub>w</sub></sup></td>
-            <td align="center">18.8 <sup><sub>km/h</sub></sup></td>
-            <td align="center">126</td>
-        </tr>
-            <tr>
-            <td>16-05-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Col de Behorleguy" title="Col de Behorleguy"/>
-<a href="https://www.strava.com/activities/11434156225" title="Kcal: 3272 | Gear: None ">Col de Behorleguy</a>
-            </td>
-            <td align="center">103 <sup><sub>km</sub></sup></td>
-            <td align="center">2 183 <sup><sub>m</sub></sup></td>
-            <td align="center">5:21:14</td>
-            <td align="center">145 <sup><sub>w</sub></sup></td>
-            <td align="center">19.3 <sup><sub>km/h</sub></sup></td>
-            <td align="center">122</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
