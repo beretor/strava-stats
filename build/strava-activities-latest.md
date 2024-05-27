@@ -10,6 +10,19 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>27-05-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo dans l&#039;après-midi" title="Sortie vélo dans l&#039;après-midi"/>
+<a href="https://www.strava.com/activities/11509979183" title="Kcal: 1882 | Gear: None ">Sortie vélo dans l&#039;après-m...</a>
+            </td>
+            <td align="center">74 <sup><sub>km</sub></sup></td>
+            <td align="center">717 <sup><sub>m</sub></sup></td>
+            <td align="center">2:52:19</td>
+            <td align="center">158 <sup><sub>w</sub></sup></td>
+            <td align="center">25.8 <sup><sub>km/h</sub></sup></td>
+            <td align="center">139</td>
+        </tr>
+            <tr>
             <td>25-05-24</td>
             <td>
                                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Zwift Academy Road: Workout 1 | Aerobic Power in Scotland" title="Zwift Academy Road: Workout 1 | Aerobic Power in Scotland"/>
@@ -60,19 +73,6 @@
             <td align="center">111 <sup><sub>w</sub></sup></td>
             <td align="center">18.9 <sup><sub>km/h</sub></sup></td>
             <td align="center">107</td>
-        </tr>
-            <tr>
-            <td>21-05-24</td>
-            <td>
-                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Progressive 11&#039;s #2 in Richmond" title="Progressive 11&#039;s #2 in Richmond"/>
-<a href="https://www.strava.com/activities/11461352331" title="Kcal: 652 | Gear: None ">Progressive 11&#039;s #2 in Ric...</a>
-            </td>
-            <td align="center">32 <sup><sub>km</sub></sup></td>
-            <td align="center">288 <sup><sub>m</sub></sup></td>
-            <td align="center">1:01:09</td>
-            <td align="center">186 <sup><sub>w</sub></sup></td>
-            <td align="center">31.5 <sup><sub>km/h</sub></sup></td>
-            <td align="center">142</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
