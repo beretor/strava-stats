@@ -3,7 +3,7 @@
          alt="Strava">
 </p>
 
-Since I began cycling `10 years and 4 months` ago on `02-11-2014`,
+Since I began cycling `10 years and 5 months` ago on `02-11-2014`,
 I had `974 cycling days`.<br />
 I recorded a total distance of `36 332 km`
 (`0.91` trips around the world 🌍 and
@@ -14,7 +14,7 @@ and a total time of `2mos 1w 23h 46m` 🎉
 
 That's a daily average of `10 km`,
 a weekly average of `73 km` and a
-monthly average of `316 km` 🐣
+monthly average of `313 km` 🐣
 
 I burned `885652 calories` doing so, that's about `3 280` pizza slices 🍕
 
