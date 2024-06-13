@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>13-06-24</td>
+            <td>
+                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
+<a href="https://www.strava.com/activities/11641554701" title="Kcal: 636 | Gear: None ">Sortie vélo le matin</a>
+            </td>
+            <td align="center">32 <sup><sub>km</sub></sup></td>
+            <td align="center">0 <sup><sub>m</sub></sup></td>
+            <td align="center">1:00:45</td>
+            <td align="center">175 <sup><sub>w</sub></sup></td>
+            <td align="center">31.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">139</td>
+        </tr>
+            <tr>
+            <td>12-06-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #54" title="Vélotaf #54"/>
+<a href="https://www.strava.com/activities/11638791157" title="Kcal: 355 | Gear: None ">Vélotaf #54</a>
+            </td>
+            <td align="center">17 <sup><sub>km</sub></sup></td>
+            <td align="center">71 <sup><sub>m</sub></sup></td>
+            <td align="center">54:03</td>
+            <td align="center">110 <sup><sub>w</sub></sup></td>
+            <td align="center">18.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">106</td>
+        </tr>
+            <tr>
             <td>11-06-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #53" title="Vélotaf #53"/>
@@ -47,32 +73,6 @@
             <td align="center">157 <sup><sub>w</sub></sup></td>
             <td align="center">30.5 <sup><sub>km/h</sub></sup></td>
             <td align="center">134</td>
-        </tr>
-            <tr>
-            <td>07-06-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vélotaf #51" title="Vélotaf #51"/>
-<a href="https://www.strava.com/activities/11595236911" title="Kcal: 476 | Gear: None ">Vélotaf #51</a>
-            </td>
-            <td align="center">22 <sup><sub>km</sub></sup></td>
-            <td align="center">111 <sup><sub>m</sub></sup></td>
-            <td align="center">1:13:53</td>
-            <td align="center">111 <sup><sub>w</sub></sup></td>
-            <td align="center">17.9 <sup><sub>km/h</sub></sup></td>
-            <td align="center">103</td>
-        </tr>
-            <tr>
-            <td>06-06-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
-<a href="https://www.strava.com/activities/11587268387" title="Kcal: 1003 | Gear: None ">Sortie vélo le matin</a>
-            </td>
-            <td align="center">149 <sup><sub>km</sub></sup></td>
-            <td align="center">1 368 <sup><sub>m</sub></sup></td>
-            <td align="center">5:35:21</td>
-            <td align="center">5 <sup><sub>w</sub></sup></td>
-            <td align="center">26.7 <sup><sub>km/h</sub></sup></td>
-            <td align="center">138</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
