@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>11-09-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo dans l&#039;après-midi" title="Sortie vélo dans l&#039;après-midi"/>
+<a href="https://www.strava.com/activities/12382743831" title="Kcal: 86 | Gear: None ">Sortie vélo dans l&#039;après-m...</a>
+            </td>
+            <td align="center">5 <sup><sub>km</sub></sup></td>
+            <td align="center">31 <sup><sub>m</sub></sup></td>
+            <td align="center">17:37</td>
+            <td align="center">115 <sup><sub>w</sub></sup></td>
+            <td align="center">18.7 <sup><sub>km/h</sub></sup></td>
+            <td align="center">90</td>
+        </tr>
+            <tr>
+            <td>11-09-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le midi" title="Sortie vélo le midi"/>
+<a href="https://www.strava.com/activities/12382287895" title="Kcal: 121 | Gear: None ">Sortie vélo le midi</a>
+            </td>
+            <td align="center">6 <sup><sub>km</sub></sup></td>
+            <td align="center">31 <sup><sub>m</sub></sup></td>
+            <td align="center">19:42</td>
+            <td align="center">120 <sup><sub>w</sub></sup></td>
+            <td align="center">18.2 <sup><sub>km/h</sub></sup></td>
+            <td align="center">100</td>
+        </tr>
+            <tr>
             <td>09-09-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le midi" title="Sortie vélo le midi"/>
@@ -47,32 +73,6 @@
             <td align="center">116 <sup><sub>w</sub></sup></td>
             <td align="center">17.8 <sup><sub>km/h</sub></sup></td>
             <td align="center">103</td>
-        </tr>
-            <tr>
-            <td>25-08-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Détox en famille" title="Détox en famille"/>
-<a href="https://www.strava.com/activities/12237488381" title="Kcal: 940 | Gear: None ">Détox en famille</a>
-            </td>
-            <td align="center">39 <sup><sub>km</sub></sup></td>
-            <td align="center">586 <sup><sub>m</sub></sup></td>
-            <td align="center">2:07:16</td>
-            <td align="center">99 <sup><sub>w</sub></sup></td>
-            <td align="center">18.4 <sup><sub>km/h</sub></sup></td>
-            <td align="center">101</td>
-        </tr>
-            <tr>
-            <td>24-08-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Vercorsman Ride" title="Vercorsman Ride"/>
-<a href="https://www.strava.com/activities/12231730375" title="Kcal: 3904 | Gear: None ">Vercorsman Ride</a>
-            </td>
-            <td align="center">119 <sup><sub>km</sub></sup></td>
-            <td align="center">2 867 <sup><sub>m</sub></sup></td>
-            <td align="center">5:41:41</td>
-            <td align="center">166 <sup><sub>w</sub></sup></td>
-            <td align="center">21 <sup><sub>km/h</sub></sup></td>
-            <td align="center">142</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
