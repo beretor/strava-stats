@@ -1828,17 +1828,6 @@ I burned `944340 calories` doing so, that's about `3 498` pizza slices 🍕
             <td align="center">19.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
-            <td align="center">Canyon ☠️</td>
-            <td align="center">129</td>
-            <td align="center">
-                                    54 <sup><sub>km avg</sub></sup> /
-                    7 006 <sup><sub>km total</sub></sup>
-                            </td>
-            <td align="center">83 394 <sup><sub>m</sub></sup></td>
-            <td align="center">1w 5d 26m</td>
-            <td align="center">24.3 <sup><sub>km/h</sub></sup></td>
-        </tr>
-            <tr>
             <td align="center">Lapierre</td>
             <td align="center">72</td>
             <td align="center">
@@ -1859,6 +1848,17 @@ I burned `944340 calories` doing so, that's about `3 498` pizza slices 🍕
             <td align="center">20 421 <sup><sub>m</sub></sup></td>
             <td align="center">2d 20h 55m</td>
             <td align="center">18.3 <sup><sub>km/h</sub></sup></td>
+        </tr>
+            <tr>
+            <td align="center">Canyon ☠️</td>
+            <td align="center">129</td>
+            <td align="center">
+                                    54 <sup><sub>km avg</sub></sup> /
+                    7 006 <sup><sub>km total</sub></sup>
+                            </td>
+            <td align="center">83 394 <sup><sub>m</sub></sup></td>
+            <td align="center">1w 5d 26m</td>
+            <td align="center">24.3 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td align="center">Other</td>
