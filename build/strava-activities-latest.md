@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>30-09-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo dans l&#039;après-midi" title="Sortie vélo dans l&#039;après-midi"/>
+<a href="https://www.strava.com/activities/12539370789" title="Kcal: 114 | Gear: None ">Sortie vélo dans l&#039;après-m...</a>
+            </td>
+            <td align="center">6 <sup><sub>km</sub></sup></td>
+            <td align="center">37 <sup><sub>m</sub></sup></td>
+            <td align="center">18:01</td>
+            <td align="center">125 <sup><sub>w</sub></sup></td>
+            <td align="center">18.7 <sup><sub>km/h</sub></sup></td>
+            <td align="center">101</td>
+        </tr>
+            <tr>
+            <td>30-09-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
+<a href="https://www.strava.com/activities/12538715397" title="Kcal: 313 | Gear: None ">Sortie vélo le matin</a>
+            </td>
+            <td align="center">13 <sup><sub>km</sub></sup></td>
+            <td align="center">75 <sup><sub>m</sub></sup></td>
+            <td align="center">43:25</td>
+            <td align="center">115 <sup><sub>w</sub></sup></td>
+            <td align="center">18.6 <sup><sub>km/h</sub></sup></td>
+            <td align="center">109</td>
+        </tr>
+            <tr>
             <td>28-09-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Rallye Véllo Asnierois 🥂🎆" title="Rallye Véllo Asnierois 🥂🎆"/>
@@ -47,32 +73,6 @@
             <td align="center">127 <sup><sub>w</sub></sup></td>
             <td align="center">18.2 <sup><sub>km/h</sub></sup></td>
             <td align="center">110</td>
-        </tr>
-            <tr>
-            <td>18-09-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo dans l&#039;après-midi" title="Sortie vélo dans l&#039;après-midi"/>
-<a href="https://www.strava.com/activities/12441841755" title="Kcal: 285 | Gear: None ">Sortie vélo dans l&#039;après-m...</a>
-            </td>
-            <td align="center">14 <sup><sub>km</sub></sup></td>
-            <td align="center">90 <sup><sub>m</sub></sup></td>
-            <td align="center">45:53</td>
-            <td align="center">122 <sup><sub>w</sub></sup></td>
-            <td align="center">18.3 <sup><sub>km/h</sub></sup></td>
-            <td align="center">100</td>
-        </tr>
-            <tr>
-            <td>17-09-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo dans l&#039;après-midi" title="Sortie vélo dans l&#039;après-midi"/>
-<a href="https://www.strava.com/activities/12434486446" title="Kcal: 215 | Gear: None ">Sortie vélo dans l&#039;après-m...</a>
-            </td>
-            <td align="center">7 <sup><sub>km</sub></sup></td>
-            <td align="center">26 <sup><sub>m</sub></sup></td>
-            <td align="center">23:20</td>
-            <td align="center">120 <sup><sub>w</sub></sup></td>
-            <td align="center">18.5 <sup><sub>km/h</sub></sup></td>
-            <td align="center">123</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
