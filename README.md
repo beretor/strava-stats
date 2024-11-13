@@ -1815,11 +1815,11 @@ I burned `952613 calories` doing so, that's about `3 528` pizza slices 🍕
             <td align="center">107</td>
             <td align="center">
                                     92 <sup><sub>km avg</sub></sup> /
-                    9 860 <sup><sub>km total</sub></sup>
+                    9 878 <sup><sub>km total</sub></sup>
                             </td>
             <td align="center">130 832 <sup><sub>m</sub></sup></td>
             <td align="center">2w 3d 2h 20m</td>
-            <td align="center">24.0 <sup><sub>km/h</sub></sup></td>
+            <td align="center">24.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td align="center">Home Trainer</td>
