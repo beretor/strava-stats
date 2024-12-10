@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>10-12-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo dans l&#039;après-midi" title="Sortie vélo dans l&#039;après-midi"/>
+<a href="https://www.strava.com/activities/13086792702" title="Kcal: 233 | Gear: None ">Sortie vélo dans l&#039;après-m...</a>
+            </td>
+            <td align="center">11 <sup><sub>km</sub></sup></td>
+            <td align="center">48 <sup><sub>m</sub></sup></td>
+            <td align="center">31:36</td>
+            <td align="center">138 <sup><sub>w</sub></sup></td>
+            <td align="center">21.6 <sup><sub>km/h</sub></sup></td>
+            <td align="center">110</td>
+        </tr>
+            <tr>
+            <td>10-12-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
+<a href="https://www.strava.com/activities/13085197864" title="Kcal: 347 | Gear: None ">Sortie vélo le matin</a>
+            </td>
+            <td align="center">12 <sup><sub>km</sub></sup></td>
+            <td align="center">48 <sup><sub>m</sub></sup></td>
+            <td align="center">38:48</td>
+            <td align="center">116 <sup><sub>w</sub></sup></td>
+            <td align="center">18.5 <sup><sub>km/h</sub></sup></td>
+            <td align="center">120</td>
+        </tr>
+            <tr>
             <td>09-12-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
@@ -47,32 +73,6 @@
             <td align="center">121 <sup><sub>w</sub></sup></td>
             <td align="center">19.3 <sup><sub>km/h</sub></sup></td>
             <td align="center">109</td>
-        </tr>
-            <tr>
-            <td>05-12-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
-<a href="https://www.strava.com/activities/13053726685" title="Kcal: 510 | Gear: None ">Sortie vélo le matin</a>
-            </td>
-            <td align="center">19 <sup><sub>km</sub></sup></td>
-            <td align="center">68 <sup><sub>m</sub></sup></td>
-            <td align="center">59:48</td>
-            <td align="center">113 <sup><sub>w</sub></sup></td>
-            <td align="center">18.8 <sup><sub>km/h</sub></sup></td>
-            <td align="center">113</td>
-        </tr>
-            <tr>
-            <td>04-12-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
-<a href="https://www.strava.com/activities/13047997583" title="Kcal: 467 | Gear: None ">Sortie vélo le matin</a>
-            </td>
-            <td align="center">21 <sup><sub>km</sub></sup></td>
-            <td align="center">68 <sup><sub>m</sub></sup></td>
-            <td align="center">1:02:59</td>
-            <td align="center">117 <sup><sub>w</sub></sup></td>
-            <td align="center">19.6 <sup><sub>km/h</sub></sup></td>
-            <td align="center">108</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
