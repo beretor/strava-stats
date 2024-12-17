@@ -38,19 +38,19 @@
                 },
                 "data": [
                     {
-                        "value": 67.67,
+                        "value": 67.69,
                         "name": "\ud83c\udf1e Morning"
                     },
                     {
-                        "value": 14.7,
+                        "value": 14.69,
                         "name": "\ud83c\udf06 Afternoon"
                     },
                     {
-                        "value": 14,
+                        "value": 13.99,
                         "name": "\ud83c\udf03 Evening"
                     },
                     {
-                        "value": 3.63,
+                        "value": 3.62,
                         "name": "\ud83c\udf19 Night"
                     }
                 ]
