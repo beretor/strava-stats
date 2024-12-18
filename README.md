@@ -3,7 +3,7 @@
          alt="Strava">
 </p>
 
-Since I began cycling `11 years and 2 days` ago on `02-11-2014`,
+Since I began cycling `11 years and 3 days` ago on `02-11-2014`,
 I had `1059 cycling days`.<br />
 I recorded a total distance of `39 749 km`
 (`0.99` trips around the world 🌍 and
@@ -54,7 +54,7 @@ I burned `965728 calories` doing so, that's about `3 577` pizza slices 🍕
             <td>17-12-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
-<a href="https://www.strava.com/activities/13136657012" title="Kcal: 378 | Gear: Endurace ">Sortie vélo le matin</a>
+<a href="https://www.strava.com/activities/13136657012" title="Kcal: 378 | Gear: Velotaf ">Sortie vélo le matin</a>
             </td>
             <td align="center">16 <sup><sub>km</sub></sup></td>
             <td align="center">88 <sup><sub>m</sub></sup></td>
@@ -1820,13 +1820,13 @@ I burned `965728 calories` doing so, that's about `3 577` pizza slices 🍕
     <tbody>
             <tr>
             <td align="center">Endurace</td>
-            <td align="center">108</td>
+            <td align="center">107</td>
             <td align="center">
-                                    91 <sup><sub>km avg</sub></sup> /
+                                    92 <sup><sub>km avg</sub></sup> /
                     9 860 <sup><sub>km total</sub></sup>
                             </td>
-            <td align="center">130 920 <sup><sub>m</sub></sup></td>
-            <td align="center">2w 3d 3h 12m</td>
+            <td align="center">130 832 <sup><sub>m</sub></sup></td>
+            <td align="center">2w 3d 2h 20m</td>
             <td align="center">24.0 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
@@ -1842,14 +1842,14 @@ I burned `965728 calories` doing so, that's about `3 577` pizza slices 🍕
         </tr>
             <tr>
             <td align="center">Velotaf</td>
-            <td align="center">734</td>
+            <td align="center">735</td>
             <td align="center">
                                     12 <sup><sub>km avg</sub></sup> /
                     8 631 <sup><sub>km total</sub></sup>
                             </td>
-            <td align="center">39 114 <sup><sub>m</sub></sup></td>
-            <td align="center">2w 4d 18h 40m</td>
-            <td align="center">19.2 <sup><sub>km/h</sub></sup></td>
+            <td align="center">39 202 <sup><sub>m</sub></sup></td>
+            <td align="center">2w 4d 19h 33m</td>
+            <td align="center">19.1 <sup><sub>km/h</sub></sup></td>
         </tr>
             <tr>
             <td align="center">Lapierre</td>
