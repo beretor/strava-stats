@@ -10,6 +10,32 @@
         <th align="center"><img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/heart-rate.svg" width="30" alt="average heart rate" title="average heart rate"/></th>
     </tr>
             <tr>
+            <td>18-12-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo de nuit" title="Sortie vélo de nuit"/>
+<a href="https://www.strava.com/activities/13145174557" title="Kcal: 224 | Gear: None ">Sortie vélo de nuit</a>
+            </td>
+            <td align="center">9 <sup><sub>km</sub></sup></td>
+            <td align="center">39 <sup><sub>m</sub></sup></td>
+            <td align="center">25:30</td>
+            <td align="center">128 <sup><sub>w</sub></sup></td>
+            <td align="center">20.9 <sup><sub>km/h</sub></sup></td>
+            <td align="center">119</td>
+        </tr>
+            <tr>
+            <td>18-12-24</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
+<a href="https://www.strava.com/activities/13143969006" title="Kcal: 299 | Gear: None ">Sortie vélo le matin</a>
+            </td>
+            <td align="center">12 <sup><sub>km</sub></sup></td>
+            <td align="center">49 <sup><sub>m</sub></sup></td>
+            <td align="center">39:20</td>
+            <td align="center">111 <sup><sub>w</sub></sup></td>
+            <td align="center">18.4 <sup><sub>km/h</sub></sup></td>
+            <td align="center">112</td>
+        </tr>
+            <tr>
             <td>17-12-24</td>
             <td>
                 <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
@@ -47,32 +73,6 @@
             <td align="center">107 <sup><sub>w</sub></sup></td>
             <td align="center">17.7 <sup><sub>km/h</sub></sup></td>
             <td align="center">107</td>
-        </tr>
-            <tr>
-            <td>14-12-24</td>
-            <td>
-                                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-virtual-ride-zwift.svg" width="12" alt="Zwift Camp: Baseline | Attack the Bunch in Watopia" title="Zwift Camp: Baseline | Attack the Bunch in Watopia"/>
-<a href="https://www.strava.com/activities/13115533543" title="Kcal: 531 | Gear: None ">Zwift Camp: Baseline | Att...</a>
-            </td>
-            <td align="center">26 <sup><sub>km</sub></sup></td>
-            <td align="center">334 <sup><sub>m</sub></sup></td>
-            <td align="center">53:09</td>
-            <td align="center">175 <sup><sub>w</sub></sup></td>
-            <td align="center">29 <sup><sub>km/h</sub></sup></td>
-            <td align="center">142</td>
-        </tr>
-            <tr>
-            <td>13-12-24</td>
-            <td>
-                <img src="https://raw.githubusercontent.com/robiningelbrecht/strava-activities/master/public/activity-ride.svg" width="12" alt="Sortie vélo le matin" title="Sortie vélo le matin"/>
-<a href="https://www.strava.com/activities/13108160258" title="Kcal: 531 | Gear: None ">Sortie vélo le matin</a>
-            </td>
-            <td align="center">19 <sup><sub>km</sub></sup></td>
-            <td align="center">58 <sup><sub>m</sub></sup></td>
-            <td align="center">56:14</td>
-            <td align="center">118 <sup><sub>w</sub></sup></td>
-            <td align="center">20.1 <sup><sub>km/h</sub></sup></td>
-            <td align="center">124</td>
         </tr>
                 <tr>
             <td colspan="8" align="right"><a href="https://github.com/robiningelbrecht/strava-activities#activities">View all activities</a></td>
